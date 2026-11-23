@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="tabPrincipal" alignment="0" pref="1020" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="tabPrincipal" alignment="0" pref="640" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="tabPrincipal">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnlVenta">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Punto de Venta">
+                <Property name="tabTitle" type="java.lang.String" value="Punto de Venta"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblClienteVenta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblServicioVenta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblCantidad" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cmbClienteVenta" alignment="0" min="-2" pref="280" max="-2" attributes="0"/>
+                                  <Component id="cmbServicioVenta" alignment="0" min="-2" pref="280" max="-2" attributes="0"/>
+                                  <Component id="txtCantidad" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnAgregarCarrito" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnQuitarCarrito" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="scrCarrito" alignment="0" pref="560" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblSubtotalTexto" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblIvaTexto" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTotalTexto" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblSubtotal" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <Component id="lblIva" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <Component id="lblTotal" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblMetodoPago" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblMontoRecibido" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblCambioTexto" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="cmbMetodoPago" alignment="0" min="-2" pref="140" max="-2" attributes="0"/>
+                                          <Component id="txtMontoRecibido" alignment="0" min="-2" pref="140" max="-2" attributes="0"/>
+                                          <Component id="lblCambio" alignment="0" min="-2" pref="140" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="btnCobrar" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblTituloTicket" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="scrTicket" alignment="0" pref="330" max="32767" attributes="0"/>
+                          <Component id="lblTituloVentas" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="scrVentas" alignment="0" pref="330" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblClienteVenta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cmbClienteVenta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblServicioVenta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cmbServicioVenta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblCantidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtCantidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnAgregarCarrito" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnQuitarCarrito" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="scrCarrito" pref="200" max="32767" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="lblSubtotalTexto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblSubtotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="lblIvaTexto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblIva" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="lblTotalTexto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="lblMetodoPago" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="cmbMetodoPago" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="lblMontoRecibido" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtMontoRecibido" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="lblCambioTexto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblCambio" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="btnCobrar" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblTituloTicket" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="scrTicket" pref="260" max="32767" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="lblTituloVentas" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="scrVentas" pref="150" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblClienteVenta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cliente:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbClienteVenta">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblServicioVenta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Servicio / producto:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbServicioVenta">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblCantidad">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cantidad / m²:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCantidad">
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAgregarCarrito">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar al carrito"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarCarritoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnQuitarCarrito">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quitar seleccionado"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQuitarCarritoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblSubtotalTexto">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Subtotal:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblSubtotal">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="$0.00"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblIvaTexto">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="IVA (16%):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblIva">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="$0.00"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTotalTexto">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Total:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTotal">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="$0.00"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblMetodoPago">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Método de pago:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbMetodoPago">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbMetodoPagoActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblMontoRecibido">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Monto recibido:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtMontoRecibido">
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtMontoRecibidoKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblCambioTexto">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cambio:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblCambio">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="$0.00"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnCobrar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cobrar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCobrarActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="scrCarrito">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblCarrito">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="lblTituloTicket">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ticket de la última venta"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="scrTicket">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txaTicket">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Monospaced" size="12" style="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="lblTituloVentas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ventas registradas"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="scrVentas">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblVentas">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlClientes">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Clientes">
+                <Property name="tabTitle" type="java.lang.String" value="Clientes"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblIdCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblNombreCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTelefonoCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDireccionCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTipoCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtIdCliente" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <Component id="txtNombreCliente" alignment="0" min="-2" pref="300" max="-2" attributes="0"/>
+                                  <Component id="txtTelefonoCliente" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="txtDireccionCliente" alignment="0" min="-2" pref="300" max="-2" attributes="0"/>
+                                  <Component id="cmbTipoCliente" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnAgregarCliente" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnBuscarCliente" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnEditarCliente" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnEliminarCliente" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnLimpiarCliente" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="scrClientes" alignment="0" pref="900" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblIdCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtIdCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblNombreCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtNombreCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblTelefonoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtTelefonoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblDireccionCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDireccionCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblTipoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmbTipoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnAgregarCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnBuscarCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnEditarCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnEliminarCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnLimpiarCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="scrClientes" pref="300" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblIdCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtIdCliente">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblNombreCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nombre / Empresa:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtNombreCliente">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTelefonoCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Teléfono:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtTelefonoCliente">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDireccionCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Dirección:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtDireccionCliente">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTipoCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo de servicio:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbTipoCliente">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAgregarCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarClienteActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnBuscarCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Buscar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarClienteActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnEditarCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Editar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditarClienteActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnEliminarCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Eliminar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarClienteActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnLimpiarCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Limpiar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimpiarClienteActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="scrClientes">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblClientes">
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tblClientesMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlNomina">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Trabajadores y Nómina">
+                <Property name="tabTitle" type="java.lang.String" value="Trabajadores y Nómina"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblTituloRegistro" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblIdTrabajador" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblNombreTrabajador" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPuesto" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblSueldoDia" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtIdTrabajador" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <Component id="txtNombreTrabajador" alignment="0" min="-2" pref="220" max="-2" attributes="0"/>
+                                  <Component id="cmbPuesto" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="txtSueldoDia" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnAgregarTrabajador" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnEliminarTrabajador" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="scrTrabajadores" alignment="0" pref="360" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblTituloNomina" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblTrabajadorNomina" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDiasTrabajados" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblHorasExtra" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDescuentos" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cmbTrabajadorNomina" alignment="0" min="-2" pref="280" max="-2" attributes="0"/>
+                                  <Component id="txtDiasTrabajados" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <Component id="txtHorasExtra" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <Component id="txtDescuentos" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="btnCalcularPago" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="scrNomina" alignment="0" pref="580" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblTituloRegistro" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblIdTrabajador" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtIdTrabajador" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblNombreTrabajador" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtNombreTrabajador" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblPuesto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cmbPuesto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblSueldoDia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtSueldoDia" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnAgregarTrabajador" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnEliminarTrabajador" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="scrTrabajadores" pref="300" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblTituloNomina" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblTrabajadorNomina" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cmbTrabajadorNomina" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblDiasTrabajados" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtDiasTrabajados" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblHorasExtra" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtHorasExtra" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblDescuentos" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtDescuentos" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnCalcularPago" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="scrNomina" pref="300" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblTituloRegistro">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Registro de personal"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblIdTrabajador">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtIdTrabajador">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblNombreTrabajador">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nombre:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtNombreTrabajador">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblPuesto">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Puesto:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbPuesto">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblSueldoDia">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sueldo por día:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtSueldoDia">
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAgregarTrabajador">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Registrar trabajador"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarTrabajadorActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnEliminarTrabajador">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Eliminar seleccionado"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarTrabajadorActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="scrTrabajadores">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblTrabajadores">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="lblTituloNomina">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cálculo de nómina"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTrabajadorNomina">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Trabajador:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbTrabajadorNomina">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDiasTrabajados">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Días trabajados:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtDiasTrabajados">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblHorasExtra">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Horas extra:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtHorasExtra">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDescuentos">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Descuentos ($):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtDescuentos">
+            </Component>
+            <Component class="javax.swing.JButton" name="btnCalcularPago">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Calcular y Registrar Pago"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalcularPagoActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="scrNomina">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblNomina">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlCatalogo">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Servicios e Inventario">
+                <Property name="tabTitle" type="java.lang.String" value="Servicios e Inventario"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblIdCatalogo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTipoCatalogo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblNombreCatalogo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPrecioCatalogo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblStockCatalogo" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtIdCatalogo" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <Component id="cmbTipoCatalogo" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="txtNombreCatalogo" alignment="0" min="-2" pref="300" max="-2" attributes="0"/>
+                                  <Component id="txtPrecioCatalogo" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <Component id="txtStockCatalogo" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnAgregarCatalogo" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnEditarCatalogo" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnEliminarCatalogo" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnLimpiarCatalogo" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="scrCatalogo" alignment="0" pref="900" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblIdCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtIdCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblTipoCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmbTipoCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblNombreCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtNombreCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblPrecioCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPrecioCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblStockCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtStockCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnAgregarCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnEditarCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnEliminarCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnLimpiarCatalogo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="scrCatalogo" pref="300" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblIdCatalogo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtIdCatalogo">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTipoCatalogo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbTipoCatalogo">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbTipoCatalogoActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblNombreCatalogo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nombre:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtNombreCatalogo">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblPrecioCatalogo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Precio base:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtPrecioCatalogo">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblStockCatalogo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Stock (insumos):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtStockCatalogo">
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAgregarCatalogo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarCatalogoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnEditarCatalogo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Editar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditarCatalogoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnEliminarCatalogo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Eliminar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarCatalogoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnLimpiarCatalogo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Limpiar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimpiarCatalogoActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="scrCatalogo">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblCatalogo">
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tblCatalogoMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

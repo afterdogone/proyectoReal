@@ -1,4 +1,4 @@
-# Guía para armar `ProyectoFinal` en NetBeans
+# Guía para armar `FrmPrincipal` en NetBeans
 
 Sistema POS y Gestión Operativa — **ENEL Servicios de Limpieza**
 
@@ -22,7 +22,7 @@ proyectoReal/src/
     │   └── Nomina.java                ← un pago de nómina
     ├── controlador/
     │   └── ControladorENEL.java       ← ArrayList estáticos, CRUD y datos precargados
-    └── ProyectoFinal.java/.form       ← ventana principal (JFrame, ya armada)
+    └── FrmPrincipal.java/.form       ← ventana principal (JFrame, ya armada)
 ```
 
 Las clases de `interfaz`, `modelo` y `controlador` ya están escritas en el proyecto.
@@ -37,10 +37,10 @@ diseñador de NetBeans (`JTabbedPane`, `JTable`, `JComboBox`, `JOptionPane`, eve
 
 ## 2. Crear la ventana
 
-> **Ya está hecho:** `proyectoreal/ProyectoFinal` ya tiene todos los componentes, eventos y código.
+> **Ya está hecho:** `proyectoreal/FrmPrincipal` ya tiene todos los componentes, eventos y código.
 > Esta sección explica cómo está armada por si quieres modificarla en el diseñador.
 
-1. El JFrame Form es `proyectoreal.ProyectoFinal` (layout *Free Design* de NetBeans).
+1. El JFrame Form es `proyectoreal.FrmPrincipal` (layout *Free Design* de NetBeans).
 2. Componentes acomodados con el diseñador; nada con `setBounds`.
 3. Arrastra un **Tabbed Pane** que ocupe toda la ventana → nombre de variable: `tabPrincipal`.
 4. Arrastra **4 Panel** dentro del `tabPrincipal` (cada panel es una pestaña):
@@ -142,7 +142,7 @@ Eventos: los 4 botones y `cmbTipoCatalogo` → **ActionPerformed**; `tblCatalogo
 
 ## 4. Código para pegar
 
-Abre la pestaña **Source** de `ProyectoFinal`. Lo gris (*guarded blocks*) no se puede editar
+Abre la pestaña **Source** de `FrmPrincipal`. Lo gris (*guarded blocks*) no se puede editar
 y no hay que tocarlo.
 
 ### 4.1 Imports (arriba, debajo de `package proyectoreal;`)
@@ -164,7 +164,7 @@ import proyectoreal.modelo.Venta;
 
 ### 4.2 Atributos, constructor y métodos de apoyo
 
-**Reemplaza** el constructor que generó NetBeans (`public ProyectoFinal() { initComponents(); }`)
+**Reemplaza** el constructor que generó NetBeans (`public FrmPrincipal() { initComponents(); }`)
 por todo este bloque:
 
 ```java
@@ -179,7 +179,7 @@ por todo este bloque:
     private DefaultTableModel modeloNomina;
     private DefaultTableModel modeloCatalogo;
 
-    public ProyectoFinal() {
+    public FrmPrincipal() {
         initComponents();
         inicializar();
     }
@@ -893,7 +893,7 @@ Tú solo pega lo que va **entre las llaves** `{ }` (se muestra la firma completa
 
 ```java
     public static void main(String[] args) {
-        ProyectoFinal.main(args);
+        FrmPrincipal.main(args);
     }
 ```
 

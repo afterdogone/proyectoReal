@@ -12,7 +12,7 @@ public class ProyectoReal {
      */
     public static void main(String[] args) {
         // Abre la ventana principal (con el look and feel Nimbus que genera NetBeans)
-        ProyectoFinal.main(args);
+        FrmPrincipal.main(args);
     }
 
 }
